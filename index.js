@@ -68,8 +68,7 @@ li.appendChild(subUl);
 li.addEventListener('mouseleave', function () {
 // When the mouse leaves the 'li' element, execute the following function:
 // Set the 'display' CSS property of 'subUl' to 'none', hiding the submenu.
-  subUl.style.display = 'none';
- 
+  subUl.style.display = 'none'; 
 });
 }
 // Append the 'li' element to the 'ul' element.
@@ -78,7 +77,6 @@ ul.appendChild(li);
 // Append the 'ul' element to the 'menuElement'.
 menuElement.appendChild(ul);
 }    
-
 // Call the function to create top menu items
 createMenuItems('top-menu', topMenuItems);
 
