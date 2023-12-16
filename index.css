@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "popins", sans-sherif;
+    box-sizing: border-box;   
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1488415032361-b7e238421f1b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: #fff;
+}
+#logo{
+    width: 40px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.left-menu{
+    display: flex;
+}
+h1{
+    text-align: center;
+    margin: 100px;
+    font-weight: 600;
+    
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #155f5f;
+    display: flex;
+    align-items: center;
+}
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 0 30px;
+    border-radius: 8px;
+
+}
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background: #80342f;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+::placeholder{ 
+    color: white;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #f3ebeb;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  #top-menu {
+    margin-right: auto; 
+  }
+  #top-menu-item{
+    justify-content: center;
+    display: flex;
+  }
+  #join-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .left-menu img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  nav#top-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav#top-menu ul li {
+    margin-right: 15px;
+    color: aqua;
+  }
+  
+  nav#sub-menu ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .join-button:hover {
+    background-color: darkblue;
+  }
+  
+  
+  footer {
+    background-color: #f7f1f1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 140px;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer nav ul li {
+    margin-right: 15px;
+  }
