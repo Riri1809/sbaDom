@@ -54,7 +54,6 @@ item.subMenu.forEach(subItem => {
 // Append the list item to the submenu's unordered list
   subUl.appendChild(subLi);
 });
-
 // Append the submenu's unordered list to the main list item
 li.appendChild(subUl);
 // Event listener to toggle submenu display on click
